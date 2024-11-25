@@ -70,3 +70,40 @@ import ace_tools as tools; tools.display_dataframe_to_user(name="Fertilizer Impa
 # Displaying the summary DataFrame
 summary_df
 
+# Example data for visualization of a methodology
+# Creating a simple example for a dashboard-like overview of optimization
+
+# Summary DataFrame as an example
+optimized_results = pd.DataFrame({
+    "Region": ["Arid", "Fertile", "Temperate"],
+    "Optimal_Fertilizer": ["Organic", "Mixed", "Phosphorus-based"],
+    "Yield_Increase_%": [15, 25, 20],
+    "CO2_Reduction_%": [30, 20, 15],
+    "Water_Saving_%": [40, 15, 10]
+})
+
+import ace_tools as tools; tools.display_dataframe_to_user(name="Optimized Fertilizer Recommendations", dataframe=optimized_results)
+
+# Creating a bar chart to visualize the optimization results
+plt.figure(figsize=(10, 6))
+categories = optimized_results["Region"]
+yield_increase = optimized_results["Yield_Increase_%"]
+co2_reduction = optimized_results["CO2_Reduction_%"]
+water_saving = optimized_results["Water_Saving_%"]
+
+x = np.arange(len(categories))  # Label locations
+width = 0.2  # Bar width
+
+# Bars for each metric
+plt.bar(x - width, yield_increase, width, label="Yield Increase (%)")
+plt.bar(x, co2_reduction, width, label="CO2 Reduction (%)")
+plt.bar(x + width, water_saving, width, label="Water Saving (%)")
+
+# Add labels and formatting
+plt.xlabel("Regions")
+plt.ylabel("Performance Metrics (%)")
+plt.title("Performance Improvements by Optimal Fertilizer Choice")
+plt.xticks(x, categories)
+plt.legend()
+plt.grid(axis="y")
+plt.show()
