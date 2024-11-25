@@ -19,7 +19,7 @@ Consommation d’eau (m³/ha) par type d’engrais et par culture :
 Les engrais organiques nécessitent moins d’eau, rendant cette option plus adaptée pour des régions arides.
 Les engrais azotés et mixtes nécessitent davantage d’eau pour maximiser leur efficacité.
 
-*** tableau récapitulatif qui synthétise les impacts des différents types d'engrais sur les rendements, les émissions de CO₂ et la consommation d'eau. 
+*** tableau récapitulatif issu des données fictives qui synthétise les impacts des différents types d'engrais sur les rendements, les émissions de CO₂ et la consommation d'eau. 
 
    Fertilizer_Type  Average_Yield_kg_per_ha  Average_CO2_Emissions_kg_per_ha      Average_Water_Use_m3_per_ha  
 0           Organic                  4400.00                            86.67                        400.00  
