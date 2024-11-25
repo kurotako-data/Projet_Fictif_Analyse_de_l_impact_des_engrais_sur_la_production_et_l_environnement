@@ -1,0 +1,30 @@
+Les données présentées sont fictives et ont été générées pour créer un exemple réaliste de projet. 
+Elles sont conçues pour illustrer les interactions possibles entre types d’engrais, rendements, émissions de CO₂, et consommation d’eau, 
+mais elles ne proviennent pas d'une source réelle.
+
+Voici les résultats visuels de l’analyse fictive  :
+
+Rendement (kg/ha) par type d’engrais et par culture :
+
+Les engrais mixtes offrent les meilleurs rendements pour toutes les cultures.
+Les engrais azotés surpassent les organiques pour le maïs et le blé, mais le soja bénéficie davantage des engrais organiques.
+
+Émissions de CO₂ (kg/ha) par type d’engrais et par culture :
+
+Les engrais organiques ont les émissions les plus faibles pour toutes les cultures.
+Les engrais phosphorés et azotés génèrent plus de CO₂, avec un pic significatif pour le maïs.
+
+Consommation d’eau (m³/ha) par type d’engrais et par culture :
+
+Les engrais organiques nécessitent moins d’eau, rendant cette option plus adaptée pour des régions arides.
+Les engrais azotés et mixtes nécessitent davantage d’eau pour maximiser leur efficacité.
+
+*** tableau récapitulatif qui synthétise les impacts des différents types d'engrais sur les rendements, les émissions de CO₂ et la consommation d'eau. 
+
+   Fertilizer_Type  Average_Yield_kg_per_ha  Average_CO2_Emissions_kg_per_ha      Average_Water_Use_m3_per_ha  
+0           Organic                  4400.00                            86.67                        400.00  
+1    Nitrogen-based                  4166.67                           130.00                        500.00  
+2  Phosphorus-based                  3666.67                            50.00                        283.33  
+3             Mixed                  3866.67                           106.67                        450.00  
+
+  
